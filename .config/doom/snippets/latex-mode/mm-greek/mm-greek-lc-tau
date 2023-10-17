@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tau
+# key: ;t
+# group: Math Greek Letters
+# condition: (and (yas-texmathp) 'auto)
+# --
+\tau$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: derivative
+# key: pdiff
+# conditon: (and (texmathp) 'auto)
+# group: math
+# --
+\\frac{\\partial${1:y}}{\\partial${2:x}} $0

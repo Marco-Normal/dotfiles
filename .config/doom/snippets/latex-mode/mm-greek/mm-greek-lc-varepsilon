@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: varepsilon
+# key: ;veps
+# group: Math Greek Letters
+# condition: (and (yas-texmathp) 'auto)
+# --
+\varepsilon$0

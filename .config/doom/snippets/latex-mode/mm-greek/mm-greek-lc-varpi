@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: varpi
+# key: ;pp
+# group: Math Greek Letters
+# condition: (and (yas-texmathp) 'auto)
+# --
+\varpi$0

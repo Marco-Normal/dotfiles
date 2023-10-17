@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: times
+# key: *
+# condition: (and (texmathp) 'auto)
+# group: math
+# --
+\\cdot

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pi
+# key: ;pi
+# group: Math Greek Letters
+# condition: (and (yas-texmathp) 'auto)
+# --
+\pi$0
