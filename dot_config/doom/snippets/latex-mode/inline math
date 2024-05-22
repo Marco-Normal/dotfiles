@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: inline math
-# key: fm
-# conditon: (yas-texmathp)
-# group : environments
-# --
-\\( $0 \\)

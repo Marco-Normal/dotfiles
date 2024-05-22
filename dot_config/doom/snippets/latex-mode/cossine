@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: cossine
-# key: cos
-# condition: (yas-texmathp)
-# # group : trig functions
-# --
-\cos \left( ${1:angle} \right) $0

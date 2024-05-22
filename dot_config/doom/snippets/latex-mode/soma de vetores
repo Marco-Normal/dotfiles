@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: soma de vetores
-# key: svec
-# condition: (yas-texmathp)
-# group: subespaços
-# --
-${1:v}_{1} + \ldots + $1_{n} $0

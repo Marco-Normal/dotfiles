@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: Theta
-# key: ;O
-# group: Math Greek Letters
-# condition: (and (yas-texmathp) 'auto)
-# --
-\Theta$0

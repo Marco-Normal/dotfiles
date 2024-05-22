@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: logical or
-# key: lor
-# condition: (yas-texmathp)
-# group : logical
-# --
-\lor $0

@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: psi
-# key: ;psi
-# group: Math Greek Letters
-# condition: (and (yas-texmathp) 'auto)
-# --
-\psi$0

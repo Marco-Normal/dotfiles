@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: not in
-# key: NEE
-# condition: (yas-texmathp)
-# group : set notation
-# --
-\notin $0

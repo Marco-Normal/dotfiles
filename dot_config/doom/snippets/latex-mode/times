@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: times
-# key: *
-# condition: (yas-texmathp)
-# --
-\cdot $0

@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: logarithm
-# key: log
-# condition: (yas-texmathp)
-# group : math
-# --
-\log \left( $1 \right) $0

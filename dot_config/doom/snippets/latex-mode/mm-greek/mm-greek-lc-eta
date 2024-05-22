@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: eta
-# key: ;e
-# group: Math Greek Letters
-# condition: (and (yas-texmathp) 'auto)
-# --
-\eta$0

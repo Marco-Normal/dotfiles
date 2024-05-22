@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# name: display math
-# key: dm
-# condition: (yas-texmathp)
-# group : environments
-# --
-\\[
-$0
-\\]
