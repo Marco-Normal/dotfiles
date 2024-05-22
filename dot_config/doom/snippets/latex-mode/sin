@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: sin
-# key: sin
-# condition: (yas-texmathp)
-# group : trig function
-# --
-\sin \left( ${1:angle} \right) $0

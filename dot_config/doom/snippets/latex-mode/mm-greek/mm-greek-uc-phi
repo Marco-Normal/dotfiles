@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: Phi
-# key: ;P
-# group: Math Greek Letters
-# condition: (and (yas-texmathp) 'auto)
-# --
-\Phi$0

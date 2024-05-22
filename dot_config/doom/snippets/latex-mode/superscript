@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: superscript
-# key: ^
-# condition: (yas-texmathp)
-# group: math
-# --
-^{$1} $0

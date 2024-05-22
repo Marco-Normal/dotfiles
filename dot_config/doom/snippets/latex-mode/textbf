@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: textbf
-# key: tbf
-# condition: (yas-texmathp)
-# group: font
-# --
-\textbf{$1} $0

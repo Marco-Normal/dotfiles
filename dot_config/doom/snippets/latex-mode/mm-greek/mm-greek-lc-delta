@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: delta
-# key: ;d
-# group: Math Greek Letters
-# condition: (and (yas-texmathp) 'auto)
-# --
-\delta$0

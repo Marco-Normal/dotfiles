@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: subscript
-# key: _
-# condition: (yas-texmathp)
-# group : math
-# --
-_{$1} $0

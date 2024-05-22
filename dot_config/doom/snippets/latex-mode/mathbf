@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: mathbf
-# key: mbf
-# condition: (yas-texmathp)
-# group: font
-# --
-\mathbf{${1:expression}} $0
