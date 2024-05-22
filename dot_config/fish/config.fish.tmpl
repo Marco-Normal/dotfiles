@@ -1,0 +1,28 @@
+fish_config theme choose "Dracula Official"
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+function fish_greeting
+    set random_cat (random choice ~/Documents/ascii/*)
+    fastfetch -l $random_cat --logo-color-1 034
+end
+alias pacman="sudo pacman"
+alias update="sudo pacman -Syu"
+alias emacs="emacs -nw"
+alias zathura="engulf.sh zathura"
+alias zat='zathura "$(fzf)"'
+alias remove="sudo pacman -Rs"
+set -Ux GITHUB_USERNAME Marco-Normal
+function sudo!!
+    eval sudo $history[1]
+end
+fish_add_path ~/.config/emacs/bin/
+
+# Created by `pipx` on 2024-03-22 14:50:56
+set PATH $PATH /home/marco_note/.local/bin
+
+function circuit
+	source ~/venvs/aacircuit/bin/activate.fish
+	engulf.sh python ~/git/AACircuit/aacircuit.py
+	deactivate
+end
