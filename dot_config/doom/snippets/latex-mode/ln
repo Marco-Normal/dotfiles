@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ln
+# key: ln
+# condition: (yas-texmathp)
+# group : math
+# --
+\ln \left( $1 \right) $0

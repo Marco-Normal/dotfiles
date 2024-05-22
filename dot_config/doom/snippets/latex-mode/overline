@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: overline
+# key: bar
+# condition: (yas-texmathp)
+# group : geometry
+# --
+\overline{${1:element}} $0

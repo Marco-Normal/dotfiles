@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dots
+# key: ...
+# condition: (yas-texmathp)
+# group: dots
+# --
+\ldots $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: square
+# key: qs
+# condition: (yas-texmathp)
+# group : math
+# --
+^{${1:2}} $0

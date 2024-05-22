@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: align
+# key: bal
+# condition: (yas-texmathp)
+# # group : environment
+# --
+\begin{align}
+\label{eq:}
+    $0
+\end{align}

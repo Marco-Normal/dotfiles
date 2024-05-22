@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: align newlines
+# key: ==
+# condition: (yas-texmathp)
+# group : environments
+# --
+&= $0 \\

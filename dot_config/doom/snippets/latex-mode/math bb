@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: math bb
+# key: bb
+# condition: (yas-texmathp)
+# group : font
+# --
+\mathbb{$1} $0

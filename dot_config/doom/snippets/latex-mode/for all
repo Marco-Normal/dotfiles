@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for all
+# key: AA
+# condition: (yas-texmathp)
+# group : logical
+# --
+\forall $0

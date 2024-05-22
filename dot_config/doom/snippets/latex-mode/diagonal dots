@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: diagonal dots
+# key: ddots
+# condition: (yas-texmathp)
+# group : dots
+# --
+\ddots $0

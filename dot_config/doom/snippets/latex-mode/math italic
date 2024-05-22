@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: math italic
+# key: mit
+# condition: (yas-texmathp)
+# group : font
+# --
+\mathit{$1} $0

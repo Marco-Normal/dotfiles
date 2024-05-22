@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: text italic
+# key: tit
+# condition: (yas-texmathp)
+# group : font
+# --
+\textit{$1} $0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: left right parenthesis
+# key: lrd
+# condition: (yas-texmathp)
+# group : delimiters
+# --
+
+\left( $1 \right) $0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: proof
+# key: prf
+# condition: (yas-texmathp)
+# group: environments
+# --
+\begin{proof}
+   $0
+\end{proof}

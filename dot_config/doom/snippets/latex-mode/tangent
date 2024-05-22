@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tangent
+# key: tan
+# condition: (yas-texmathp)
+# group : trig functions
+# --
+\tan \left( ${1:angle} \right) $0
