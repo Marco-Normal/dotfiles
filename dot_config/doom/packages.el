@@ -55,3 +55,4 @@
 (package! org-roam-timestamps)
 (package! speed-type)
 (package! org-roam-ui)
+(package! docstr)

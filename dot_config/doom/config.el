@@ -330,3 +330,22 @@
 (setq tab-always-indent 'complete)
 
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;Docstr;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(add-hook 'actionscript-mode-hook (lambda () (docstr-mode 1)))
+(add-hook 'c-mode-hook (lambda () (docstr-mode 1)))
+
+(defun docstring-trigger-c (&rest _)
+  "Trigger Documentation for C language"
+  (when (and (doctr--doc-valid-p) (looking-back "/\\*" 2))
+    (save-excursion
+      (insert "<summary>\n")
+      (insert "** \n")
+      (insert "</summary>\n"))
+    (forward-line 1)
+    (end-of-line)
+    (docstr--insert-doc-string (docstr--c-style-search-string 2))
+    ))
+("/" . docstring-trigger-c)
