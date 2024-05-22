@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: subespaços
+# key: subv
+# condition: (yas-texmathp)
+# group: subespaços
+# --
+\mathbb{${1:V}}_{1}, \ldots, \mathbb{$1}_{n} $0

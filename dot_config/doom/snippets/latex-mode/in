@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: in
+# key: inn
+# condition: (yas-texmathp)
+# group : set notation
+# --
+\in $0

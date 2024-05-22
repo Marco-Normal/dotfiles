@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: vartheta
+# key: ;oo
+# group: Math Greek Letters
+# condition: (and (yas-texmathp) 'auto)
+# --
+\vartheta$0

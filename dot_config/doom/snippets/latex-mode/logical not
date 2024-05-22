@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: logical not
+# key: not
+# condition: (yas-texmathp)
+## group : logical
+# --
+\neg $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: \left{ \right}
+# key: lrb
+# condition: (and (texmathp))
+# --
+
+\\left{ $1 \\right} $0

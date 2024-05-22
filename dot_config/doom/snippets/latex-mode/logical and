@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: logical and
+# key: land
+# condition: (yas-texmathp)
+# group : logical
+# --
+\land $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: generico subespaco
+# key: sube
+# condition: (yas-texmathp)
+# group : subespaços
+# --
+\mathbb{${1:V}} $0

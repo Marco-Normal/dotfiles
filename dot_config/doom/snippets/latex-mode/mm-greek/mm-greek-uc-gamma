@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Gamma
+# key: ;G
+# group: Math Greek Letters
+# condition: (and (yas-texmathp) 'auto)
+# --
+\Gamma$0

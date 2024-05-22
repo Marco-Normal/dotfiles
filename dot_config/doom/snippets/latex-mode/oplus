@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: oplus
+# key: op
+# condition: (yas-texmathp)
+# group: operators
+# --
+\oplus $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: derivative
+# key: diff
+# conditon: (and (texmathp))
+# group: math
+# --
+\\frac{\\mathrm{d}${1:y}}{\\mathrm{d}${2:x}} $0

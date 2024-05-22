@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: square root
+# key: sq
+# condition: (yas-texmathp)
+## group : math
+# --
+\sqrt[${1:2}]{${2:x}} $0
