@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name:Task
+# key: task
+# --
+:PROPERTIES:
+:calendar-id: marcotulio270903@gmail.com
+:END:
+
+:org-gcal:
+${1:Schedule or Deadline}
+
+${2:Details of the event}
+
+:END: $0

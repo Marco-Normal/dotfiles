@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sum
+# key: sum
+# condition: (yas-texmathp)
+#group: math
+# --
+\sum_{${1:i=1}}^{${2:n}} ${3:x_i} $0

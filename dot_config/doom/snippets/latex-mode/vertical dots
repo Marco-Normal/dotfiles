@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: vertical dots
+# key: vdots
+# condition: (yas-texmathp)
+# group: dots
+# --
+\vdots $0

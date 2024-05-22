@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: star
+# key: st
+# group: math
+# condition: (and (texmathp) 'auto)
+# --
+\\star

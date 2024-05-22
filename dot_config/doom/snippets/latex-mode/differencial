@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: differencial
+# key: dx
+# group: math
+# condition: (and (texmathp))
+# --
+\\mathrm{d}${1:x} $0

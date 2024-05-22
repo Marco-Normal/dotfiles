@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: soma de subespaços
+# key: ssubv
+# condition: (yas-texmathp)
+# group : subespaços
+# --
+\mathbb{${1:V}}_{1} + \ldots + \mathbb{$1}_{n} $0

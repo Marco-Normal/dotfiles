@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: not exists
+# key: E/
+# condition: (yas-texmathp)
+# group : logical
+# --
+\nexists $0

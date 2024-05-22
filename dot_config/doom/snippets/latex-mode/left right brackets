@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: left right brackets
+# key: lrb
+# condition: (yas-texmathp)
+# group : delimiters
+# --
+\left\{ $1 \right\}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: chi
+# key: ;x
+# group: Math Greek Letters
+# condition: (and (yas-texmathp) 'auto)
+# --
+\chi$0
